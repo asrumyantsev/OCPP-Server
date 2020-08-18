@@ -1,46 +1,45 @@
-GET /api/ev/station/list
+GET /api/charger/station/list
 Получение всех доступных зарядных станций
 
-GET /api/ev/station/get/{id}
+GET /api/charger/station/get/{id}
 Получение зарядной станции по идентификатору
 
-GET /api/ev/station/active
+GET /api/charger/station/active
 Получение списка активных станций
 
-GET /api/ev/station/partner
+GET /api/charger/station/partner
 Получение списка активных станций
 
 
-POST
-/api/ev/charge/price_anticipate
+POST /api/charger/charge/price_anticipate
 Получение примерной стоимости зарядки
-POST
-/api/ev/charge/price_final
+
+POST /api/charger/charge/price_final
 Получение окончательной стоимости зарядки
-POST
-/api/ev/charge/start
+
+POST /api/charger/charge/start
 Начало сесссии зарядки
-POST
-/api/ev/charge/reserve
+
+POST /api/charger/charge/reserve
 Резервирование коннектора
-POST
-/api/ev/charge/stop
+
+POST /api/charger/charge/stop
 Завершение сесссии зарядки
-POST
-/api/ev/charge/continue
+
+POST /api/charger/charge/continue
 Продление сесссии зарядки
-POST
-/api/ev/charge/status
+
+POST /api/charger/charge/status
 Получение информации о сесссии зарядки
-GET
-/api/ev/charge/history
+
+GET /api/charger/charge/history
 Получение истории сессий зарядок
-POST
-/api/ev/charge/start_rfid
+
+POST /api/charger/charge/start_rfid
 Начало сесссии зарядки по id tag
-POST
-/api/ev/charge/stop_rfid
+
+POST /api/charger/charge/stop_rfid
 Начало сесссии зарядки по id tag
-GET
-/api/ev/charge/session/active
+
+GET /api/charger/charge/session/active
 Получение списка автивных сессий
