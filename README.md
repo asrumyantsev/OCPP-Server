@@ -1,14 +1,13 @@
-GET
-/api/ev/station/list
+GET /api/ev/station/list
 Получение всех доступных зарядных станций
-GET
-/api/ev/station/get/{id}
+
+GET /api/ev/station/get/{id}
 Получение зарядной станции по идентификатору
-GET
-/api/ev/station/active
+
+GET /api/ev/station/active
 Получение списка активных станций
-GET
-/api/ev/station/partner
+
+GET /api/ev/station/partner
 Получение списка активных станций
 
 
